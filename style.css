@@ -1,0 +1,44 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+ul {
+    list-style-type: none;
+}
+
+#container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    translate: 0 -300px;
+}
+
+button {
+    width: 200px;
+    height: 50px; 
+    border: none;
+    background-color: rgb(79, 81, 177); 
+    color: white;
+    font-size: 18px; 
+    border-radius: 10px;
+    cursor: pointer;
+    margin-right: 10px;
+    transition: all 0.12s ease;
+}
+
+button:hover {
+    background-color: rgb(20, 22, 118);
+}
+
+button:active {
+    background-color: rgb(16, 22, 83);
+    translate: 0 1px;
+}
